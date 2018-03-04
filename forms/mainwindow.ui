@@ -33,15 +33,15 @@
       <item row="0" column="0">
        <widget class="MyGraphicsView" name="graphicsViewMain"/>
       </item>
-      <item row="0" column="1">
-       <widget class="QTableView" name="tableViewProperties"/>
-      </item>
       <item row="1" column="0">
        <widget class="QLabel" name="labelTotal">
         <property name="text">
          <string>Total: </string>
         </property>
        </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QTableWidget" name="tableWidgetProperties"/>
       </item>
      </layout>
     </item>

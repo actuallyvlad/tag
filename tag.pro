@@ -28,16 +28,20 @@ VPATH += \
         headers \
         forms
 
+INCLUDEPATH += headers
+
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
         algorithm.cpp \
-        mygraphicsview.cpp
+        mygraphicsview.cpp \
+        betterblobdetector.cpp
 
 HEADERS += \
         mainwindow.h \
         algorithm.h \
-        mygraphicsview.h
+        mygraphicsview.h \
+        betterblobdetector.h
 
 FORMS += \
         mainwindow.ui

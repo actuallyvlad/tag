@@ -5,6 +5,8 @@ MyGraphicsView::MyGraphicsView(QWidget *parent) : QGraphicsView(parent)
 {
 }
 
+/* wheelEvent snippet is taken from
+ * https://stackoverflow.com/a/44422044 (author: cmaughan) */
 void MyGraphicsView::wheelEvent(QWheelEvent* pWheelEvent)
 {
     // Do a wheel-based zoom about the cursor position
