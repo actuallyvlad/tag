@@ -19,4 +19,5 @@ Right now, the algorithm works well only on separate rice grains. You can see th
 
 ## Third-party Components
 
-The project is developed using [Qt](https://www.qt.io/) (Qt Creator + Qt Designer)
+The project is developed using [Qt](https://www.qt.io/) (Qt Creator + Qt Designer).
+Icon made by [Freepik](https://www.freepik.com/) from www.flaticon.com.
